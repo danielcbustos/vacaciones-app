@@ -33,6 +33,8 @@ public class Destino {
     private String nombre;
     @Column(name = "descripcion", nullable = false)
     private String descripcion;
+    @Column(name = "imagen", nullable = false)
+    private String imagen;
     @Column(name = "pais", nullable = false)
     private String pais;
     @Column(name = "precio", nullable = false)

@@ -53,6 +53,7 @@ public class DestinoService implements IDestinoService {
                 Destino destino = existingDestino.get();
                 destino.setNombre(destinoUpdated.getNombre());
                 destino.setDescripcion(destinoUpdated.getDescripcion());
+                destino.setImagen(destinoUpdated.getImagen());
                 destino.setPais(destinoUpdated.getPais());
                 destino.setPrecio(destinoUpdated.getPrecio());
                 destino.setDisponible(destinoUpdated.getDisponible());
